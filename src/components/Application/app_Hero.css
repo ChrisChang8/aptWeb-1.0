@@ -1,7 +1,7 @@
 .imgBlock {
     position: relative;
     height: 450px;
-    background-image: url('g2.jpg');
+    background-image: url('./g2.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
