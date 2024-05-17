@@ -1,0 +1,192 @@
+/* Home_Floor.css */
+
+.fp_flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .floor-plan-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Each column takes up one-third of the available space */
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .floor-plan {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+    cursor: pointer; /* Add pointer cursor */
+  }
+  
+  /* Add hover effect to floor-plan */
+  .floor-plan:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+  }
+  
+  .floor-plan img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .plan-details {
+    background-color: rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+  }
+  
+  .plan-details h3 {
+    margin-top: 0;
+  }
+  
+  .plan-details p {
+    margin: 5px 0;
+  }
+  
+
+  .filters {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .filters label {
+    margin-right: 10px;
+  }
+  
+  .filters select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .filters #datepicker {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .filters button {
+    padding: 10px 15px;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filters button:hover {
+    opacity: .7;
+  }
+
+  /* H_Floor.css */
+
+/* Add styles for the overlay */
+.card_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+  z-index: 1000; /* Ensure the overlay is on top of other elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-floor-plan-image img {
+  max-width: 100%; /* Adjust the maximum width of the image */
+  max-height: 80vh; /* Adjust the maximum height of the image */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Add a shadow effect */
+}
+
+/* Add styles for the selected floor plan details */
+.selected-floor-plan-details {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  text-align: center; /* Center the text horizontally */
+
+}
+
+/* Add styles for the close button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1001; /* Ensure the close button is above the image */
+}
+
+  @media only screen and (max-width: 1000px) {
+    .floor-plan img {
+      width: 100%;
+      height: 270px;
+      object-fit: cover;
+    }
+
+    .filters {
+      margin: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .filters button {
+      margin-top: 15px; 
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .floor-plan-grid{
+      grid-template-columns: repeat(2, 1fr); /* Each column takes up one-third of the available space */
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .filters {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .filters button {
+      margin-top: 20px; /* Add margin to the top of each button */
+    }
+
+    .filters label {
+      margin-top: 15px; /* Add margin to the top of each button */
+    }
+
+    .filters #datepicker {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .floor-plan-grid{
+      padding: 20px;
+      grid-template-columns: repeat(1, 1fr); 
+    }
+    .labels{
+      margin-bottom: 10px;
+    }
+  }

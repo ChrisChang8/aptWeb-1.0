@@ -1,0 +1,38 @@
+[
+    {
+        "type": "community",
+        "image": "./g1.jpg"
+    },
+    {
+        "type": "apartment",
+        "image": "./g2.jpg"
+    },
+    {
+        "type": "community",
+        "image": "./g3.jpg"
+    },
+    {
+        "type": "apartment",
+        "image": "./g4.jpg"
+    },
+    {
+        "type": "community",
+        "image": "./g1.jpg"
+    },
+    {
+        "type": "apartment",
+        "image": "./g2.jpg"
+    },
+    {
+        "type": "community",
+        "image": "./g3.jpg"
+    },
+    {
+        "type": "apartment",
+        "image": "./g4.jpg"
+    },
+    {
+        "type": "community",
+        "image": "./g1.jpg"
+    }
+]

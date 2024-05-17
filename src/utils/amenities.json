@@ -1,0 +1,62 @@
+[
+    {
+        "type": "community",
+        "text": "PATIO/BALCONY",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "apartment",
+        "text": "ENERGY EFFICIENT APPLIANCES",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "community",
+        "text": "DISH WASHER",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "apartment",
+        "text": "CEILING FAN",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "community",
+        "text": "CLOSETS",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "apartment",
+        "text": "PANTRY",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "community",
+        "text": "SPACIOUS TUBS",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "apartment",
+        "text": "CABLE READY",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "community",
+        "text": "NEAR TRANSPORTAION",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "community",
+        "text": "NEAR SHOPPING CENTERS",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "community",
+        "text": "NEAR PARKS",
+        "image": "./a.jpg"
+    },
+    {
+        "type": "community",
+        "text": "NEAR SCHOOLS",
+        "image": "./a.jpg"
+    }
+]

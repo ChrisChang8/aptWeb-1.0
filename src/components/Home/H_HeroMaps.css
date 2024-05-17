@@ -1,0 +1,21 @@
+  .hero-container2 {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .text-overlay h1 {
+      font-size: 28px; 
+    }
+  }

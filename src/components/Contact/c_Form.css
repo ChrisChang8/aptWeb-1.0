@@ -1,0 +1,40 @@
+.formContainer {
+    width: 40%;
+    text-align: center;
+    font-size: 15px;
+}
+
+section {
+    width: 50vh; /* Adjust the percentage as needed */
+    max-width: 800px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the section horizontally */
+}
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  
+  .success-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    color: #155724;
+  }
+
+  @media(max-width: 500px) {
+    .formContainer {
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+  }

@@ -1,0 +1,26 @@
+.pdfContainer{
+    width: 80%;
+    height: 100vh;
+}
+
+.block{
+    background-color: black;
+    height: 10vh; 
+    width: 100%;
+}
+
+@media only screen and (max-width: 450px){
+    .rentalText{
+        width: 70%;
+    }
+
+    .pdfContainer{
+        width: 80%;
+        height: 50vh;
+    }
+
+    .block{
+        height: 15vh; 
+    }
+}
+

@@ -1,0 +1,11 @@
+.imgBlock4 {
+    position: relative;
+    height: 450px;
+    background-image: url('g4.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

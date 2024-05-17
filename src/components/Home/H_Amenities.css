@@ -1,0 +1,80 @@
+.a-flexCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.amenities-container {
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  margin: 50px auto;
+}
+
+.amenities-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 15px; /* Gap between items */
+  justify-items: center; /* Center items horizontally */
+}
+
+.amenity-item {
+  position: relative; /* Position relative for overlay */
+  text-align: center; /* Center text within items */
+}
+
+.amenity-item img {
+  max-width: 100%; /* Limit the maximum width of the image */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Dark overlay */
+.amenity-item::after {
+  content: ""; /* Create pseudo-element for overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay color */
+  border-radius: 10px; /* Rounded corners */
+  opacity: 1; /* Always present */
+}
+
+/* Text styling */
+.amenity-item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Text color */
+  z-index: 1; /* Place text above overlay */
+  margin: 0; /* Remove default margin */
+  padding: 10px; /* Add padding for better readability */
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .amenity-item img {
+    height: 150px;
+  }
+
+  .a-flexCenter h2,
+  .a-flexCenter p {
+    width: 80%; /* Adjust the width as needed */
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .amenities-list {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .amenities-list {
+    grid-template-columns: repeat(1, 3fr); 
+  }
+}
