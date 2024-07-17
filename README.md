@@ -1,8 +1,14 @@
-# React + Vite
+# Apartment Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Overview
+The Buckingham Courts Apartments website is a dynamic and user-friendly platform designed to enhance user engagement and streamline communication with potential tenants. Featuring detailed floor plans, a functional contact form, and robust data integrity, this website has significantly increased local user engagement and leads.
 
-Currently, two official plugins are available:
+# Features
+Interactive Floor Plans: Provides detailed floor plans to help prospective tenants visualize their future homes.
+Functional Contact Form: Enables users to easily get in touch with the apartment management for inquiries and applications.
+Robust Data Integrity: Utilizes SQL to ensure reliable and secure handling of user data.
+Enhanced User Engagement: Improved user interaction, leading to an increase of over 500 local users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Technologies Used:
+Frontend: React, JavaScript
+Backend: SQL for data management
